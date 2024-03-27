@@ -1,7 +1,7 @@
 ---
 import { CollectionEntry, getCollection } from "astro:content";
 import { BlogSchema } from "../../content/config";
-import PostLayout from "../../layouts/PostLayout.astro";
+import ProjectLayout from "../../layouts/ProjectLayout.astro";
 import createSlug from "../../lib/createSlug"
 
 export async function getStaticPaths() {
@@ -21,7 +21,7 @@ const post: BlogSchema = entry.data;
 const { Content } = await entry.render();
 ---
 
-<PostLayout
+<ProjectLayout
   title={post.title}
   description={post.description}
   pubDate={post.pubDate}
@@ -31,4 +31,4 @@ const { Content } = await entry.render();
   tags={post.tags}
 >
   <Content />
-</PostLayout>
+</ProjectLayout>
