@@ -1,6 +1,6 @@
 ---
 import { CollectionEntry, getCollection } from "astro:content";
-import { BlogSchema } from "../../content/config";
+import { ProjectSchema } from "../../content/config";
 import ProjectLayout from "../../layouts/ProjectLayout.astro";
 import createSlug from "../../lib/createSlug"
 
@@ -17,18 +17,18 @@ interface Props {
 }
 
 const { entry } = Astro.props;
-const post: BlogSchema = entry.data;
+const work: ProjectSchema = entry.data;
 const { Content } = await entry.render();
 ---
 
 <ProjectLayout
-  title={post.title}
-  description={post.description}
-  pubDate={post.pubDate}
-  heroImage={post.heroImage}
-  updatedDate={post.updatedDate}
-  badge={post.badge}
-  tags={post.tags}
+  title={work.title}
+  description={work.description}
+  pubDate={work.pubDate}
+  heroImage={work.heroImage}
+  updatedDate={work.updatedDate}
+  badge={work.badge}
+  tags={work.tags}
 >
   <Content />
 </ProjectLayout>

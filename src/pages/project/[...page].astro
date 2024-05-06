@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import HorizontalCard from "../../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
-import createSlug from "../../lib/createSlug"
+import createSlug from "../../lib/createSlug";
 
 export async function getStaticPaths({ paginate }) {
   const posts = await getCollection("project");
@@ -22,7 +22,9 @@ const { page } = Astro.props;
     page.data.length === 0 ? (
       <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
         <p class="font-bold">Sorry!</p>
-        <p>There are no project posts to show at the moment. Check back later!</p>
+        <p>
+          There are no project posts to show at the moment. Check back later!
+        </p>
       </div>
     ) : (
       <ul>
@@ -67,7 +69,7 @@ const { page } = Astro.props;
     {
       page.url.next ? (
         <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
-          Older Posts{" "}
+          Older Works{" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
             xmlns="http://www.w3.org/2000/svg"

@@ -1,16 +1,11 @@
 ---
 title: "HackMath"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Project for building an interactive AI Math education software"
 pubDate: "Sep 12 2022"
 heroImage: "/post_img.webp"
-badge: "Demo badge"
+badge: "Design"
 tags: ["UX/UI", "Hackathon"]
 ---
-
-hello npm
-hello
-hello
-hello
 
 # Background
 
@@ -117,7 +112,7 @@ User Analytics gives overall achievement matrices and provides a box of AI analy
 
 # UXUI
 
-> [Figma](https://www.figma.com/file/s8L3Tktpd5ImhwqTVN2FYv/Gemini-Hack--HackMath? type=design&node-id=0-1&mode=design&t=jplvlNFOJQogWzFX-0)
+> [Figma](https://www.figma.com/file/s8L3Tktpd5ImhwqTVN2FYv/Gemini-Hack--HackMath?)
 
 ![figma](https://i.imgur.com/EkYvbFM.png)
 
