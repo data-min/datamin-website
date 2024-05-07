@@ -6,4 +6,6 @@ heroImage: "/post_img.webp"
 tags: ["tokio"]
 ---
 
-Creating a post
+#Creating a Switch
+
+https://dev.to/surjithctly/creating-a-dark-light-system-auto-toggle-switch-in-astro-50kn

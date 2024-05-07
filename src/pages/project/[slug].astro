@@ -2,11 +2,11 @@
 import { CollectionEntry, getCollection } from "astro:content";
 import { ProjectSchema } from "../../content/config";
 import ProjectLayout from "../../layouts/ProjectLayout.astro";
-import createSlug from "../../lib/createSlug"
+import createSlug from "../../lib/createSlug";
 
 export async function getStaticPaths() {
-  const postEntries = await getCollection("project");
-  return postEntries.map((entry) => ({
+  const workEntries = await getCollection("project");
+  return workEntries.map((entry) => ({
     params: { slug: createSlug(entry.data.title, entry.slug) },
     props: { entry },
   }));

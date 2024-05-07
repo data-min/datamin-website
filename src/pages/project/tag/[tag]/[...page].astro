@@ -5,16 +5,16 @@ import { getCollection } from "astro:content";
 import createSlug from "../../../../lib/createSlug";
 
 export async function getStaticPaths({ paginate }) {
-  const all_posts = await getCollection("project");
-  const all_tags = all_posts.flatMap((post) => {
-    return post.data.tags || [];
+  const all_works = await getCollection("project");
+  const all_tags = all_works.flatMap((work) => {
+    return work.data.tags || [];
   });
 
   return all_tags.flatMap((tag) => {
-    const filtred_posts = all_posts.filter((post) => {
-      return post.data.tags?.includes(tag);
+    const filtred_works = all_works.filter((work) => {
+      return work.data.tags?.includes(tag);
     });
-    return paginate(filtred_posts, {
+    return paginate(filtred_works, {
       params: { tag },
       pageSize: 10,
     });
@@ -25,28 +25,30 @@ const { page } = Astro.props;
 const params = Astro.params;
 ---
 
-<BaseLayout title={"project - " + params.tag} sideBarActiveItemID="project">
+<BaseLayout title={"Project - " + params.tag} sideBarActiveItemID="project">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">project - {params.tag}</div>
+    <div class="text-3xl w-full font-bold">Project - {params.tag}</div>
   </div>
   {
     page.data.length === 0 ? (
       <div class="bg-base-200 border-l-4 border-secondary w-full p-4 min-w-full">
         <p class="font-bold">Sorry!</p>
-        <p>There are no blog posts to show at the moment. Check back later!</p>
+        <p>
+          There are no project works to show at the moment. Check back later!
+        </p>
       </div>
     ) : (
       <ul>
-        {page.data.map((post) => (
+        {page.data.map((work) => (
           <>
             <HorizontalCard
-              title={post.data.title}
-              img={post.data.heroImage}
-              desc={post.data.description}
-              url={"/blog/" + createSlug(post.data.title, post.slug)}
+              title={work.data.title}
+              img={work.data.heroImage}
+              desc={work.data.description}
+              url={"/project/" + createSlug(work.data.title, work.slug)}
               target="_self"
-              badge={post.data.badge}
-              tags={post.data.tags}
+              badge={work.data.badge}
+              tags={work.data.tags}
             />
             <div class="divider my-0" />
           </>
@@ -69,7 +71,7 @@ const params = Astro.params;
           >
             <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
           </svg>{" "}
-          Recent posts
+          Recent works
         </a>
       ) : (
         <div />
@@ -78,7 +80,7 @@ const params = Astro.params;
     {
       page.url.next ? (
         <a href={page.url.next} class="btn btn-ghost my-10 mx-5">
-          Older Posts{" "}
+          Older works{" "}
           <svg
             class="h-6 w-6 fill-current md:h-8 md:w-8"
             xmlns="http://www.w3.org/2000/svg"
