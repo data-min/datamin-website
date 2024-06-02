@@ -1,7 +1,7 @@
 ---
 title: "HackMath"
 description: "Project for building an interactive AI Math education software"
-pubDate: "Sep 12 2022"
+pubDate: "May 2 2024"
 heroImage: "https://i.imgur.com/DHxYMHI.pngp"
 badge: "Design"
 tags: ["UXUI", "Hackathon"]
