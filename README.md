@@ -1,4 +1,6 @@
-Datamin Portfolio Website
+# Datamin Portfolio Website
+![alt text](https://i.imgur.com/FvPSCk5.png)
+
 
 ## Demo
 
