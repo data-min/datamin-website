@@ -1,5 +1,4 @@
 Datamin Portfolio Website
-![Astrofy | Personal Porfolio Website Template](public/social_img.webp)
 
 ## Demo
 
