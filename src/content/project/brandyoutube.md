@@ -1,10 +1,10 @@
 ---
-title: "Enhance your brand using YouTube"
-description: "BTAA is a project-based organization dedicated to fostering innovation and excellence in the field of business technology analytics."
-pubDate: "Sep 12 2021"
-heroImage: "https://i.imgur.com/9M0XXhk.png"
-badge: "Building an Organization"
-tags: ["School", "Non Profit"]
+title: "Enhance your brand using YouTub Data Analytics"
+description: "Discovering who really connects with audiences through innovative content analysis."
+pubDate: "Jun 5 2024"
+heroImage: "https://i.imgur.com/zSsGSRG.png"
+badge: "Challenge"
+tags: ["Data Analytics"]
 ---
 
 ```python

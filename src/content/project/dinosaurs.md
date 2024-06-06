@@ -2,7 +2,7 @@
 title: "Dinosaur Data Analytics"
 description: "Analyzed the museum's dinosaur fossil records to discover insights and and advise the museum on the quality of the data."
 pubDate: "Jun 3 2024"
-heroImage: "https://i.imgur.com/RhN7SQa.png"
+heroImage: "https://i.imgur.com/83JsmG4.png"
 badge: "Challenge"
 tags: ["Data Analytics"]
 ---
