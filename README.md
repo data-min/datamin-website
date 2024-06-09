@@ -1,12 +1,10 @@
-# Astrofy | Personal Portfolio Website Template
+# Datamin Portfolio Website
+![alt text](https://i.imgur.com/FvPSCk5.png)
 
-![Astrofy | Personal Porfolio Website Template](public/social_img.webp)
-
-Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with a Blog, CV, Project Section, Store, and RSS Feed.
 
 ## Demo
 
-View a live demo of [Astrofy](https://astrofy-template.netlify.app/)
+View a live demo of [datamin](https://datamin.org/)
 
 ## Installation
 
@@ -51,6 +49,9 @@ pnpm run dev
 │   │   ├── store/
 │   │   │   ├── item1.md
 │   │   │   ├── item2.md
+│   │   ├── Project/
+│   │   │   ├── work1.md
+│   │   │   ├── work2.md
 │   ├── layouts/
 │   │   └── BaseLayout.astro
 │   │   └── PostLayout.astro
@@ -255,26 +256,6 @@ To change the template theme change the `data-theme` attribute of the `<html>` t
 
 You can choose among 30 themes available or create your custom theme. See themes available [here](https://daisyui.com/docs/themes/).
 
-## Sitemap
-
-The Sitemap is generated automatically when you build your website in the root of the domain. Please update the `robots.txt` file in the public folder with your site name URL for the Sitemap.
-
-## Deploy
-
-You can deploy your site on your favourite static hosting service such as Vercel, Netlify, GitHub Pages, etc.
-
-The configuration for the deployment varies depending on the platform where you are going to do it. See the [official Astro information](https://docs.astro.build/en/guides/deploy/) to deploy your website.
-
-> **⚠️ CAUTION** </br>
-> The Blog pagination of this template is implemented using dynamic route parameters in its filename and for now this format is incompatible with SSR deploy configs, so please use the default static deploy options for your deployments.
-
-## Contributing
-
-Suggestions and pull requests are welcomed! Feel free to open a discussion or an issue for a new feature request or bug.
-
-One of the best ways to contribute is to grab a [bug report or feature suggestion](https://github.com/manuelernestog/astrofy/issues) that has been marked `accepted` and dig in.
-
-Please be wary of working on issues _not_ marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
 
 ## License
 
