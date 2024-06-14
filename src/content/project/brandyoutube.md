@@ -12,6 +12,8 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
+dfdewd
+
 #Background
 You're a data scientist at a global marketing agency that helps some of the world's largest companies enhance their online presence. Your new project is exciting: identify the most effective YouTube videos to promote your clients’ brands. Forget simple metrics like views or likes; your job is to dive deep and discover who really connects with audiences through innovative content analysis.
 
