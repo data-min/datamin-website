@@ -1,7 +1,7 @@
 ---
 title: BeReal of Dating App, Raw.
 description: App Case Study + Data Analytics
-pubDate: "Sep 10 2022"
+pubDate: "June 1 2024"
 heroImage: "https://i.imgur.com/PbJkMPU.png"
 badge: "IT"
 tags: ["Case Study"]
