@@ -1,7 +1,7 @@
 ---
 title: NVIDIA Stock Analytics
 description: Business Case Study + Data Analytics
-pubDate: "June 2 2022"
+pubDate: "June 1 2024"
 heroImage: "https://i.imgur.com/BrRAbxJ.png"
 badge: "IT"
 tags: ["Case Study"]
