@@ -3,8 +3,8 @@ title: "Enhance your brand using YouTube"
 description: "The in-depth analysis of YouTube trends"
 pubDate: "Jun 3 2024"
 heroImage: "https://i.imgur.com/zSsGSRG.png"
-badge: "Building an Organization"
-tags: ["School", "Non Profit"]
+badge: "Data Analysis"
+tags: ["Sentiment Analysis", "Trend Analysis"]
 ---
 
 ```python
