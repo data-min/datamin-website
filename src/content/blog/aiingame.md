@@ -87,4 +87,8 @@ In other words, it fills a gap in how LLMs work. Under the hood, LLMs are neural
 
 That deep understanding, sometimes called parameterized knowledge, makes LLMs useful in responding to general prompts at light speed. However, it does not serve users who want a deeper dive into a current or more specific topic.
 
+
+## NLP(Natural Language Processing)
+
+
 # AI Strategy
