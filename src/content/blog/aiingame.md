@@ -1,14 +1,15 @@
 ---
 title: 2024 AI in Gaming Industry
-description: Analysis of AI in Gaming Industry and Strategy
+description: AI in Gaming Industry and Strategy
 pubDate: "June 15 2024"
 heroImage: "https://i.imgur.com/MGXd14A.png"
 badge: "Report"
 tags: ["AI"]
 ---
-
-
 # Industrial Trend
+According to Global Gaming Industry Trend, KOCCA selected Gen AI as the main industrial trends. Gaming has been shown a high aboptability on new technologies in order to achieve developments and innovations so far. Gen AI will be the an major  tech that increate the productivity that helps creating assets such as image, video, game, and storyline.
+
+More than half of the video game development process will be supported by generative AI within the next five to 10 years, according to new research by Bain & Company.
 
 # Company Research
 ## Krafton
@@ -54,13 +55,6 @@ For example, we study whether it is possible to achieve the same level of perfor
 
 Data-centric research based on deep learning enables AI models to make more accurate and powerful predictions. This field contributes to improving the reliability and fairness of AIs and is crucial in establishing a long-term direction and foundation for research organizations.
 
-
-## NC Soft
-...Updating
-
-## Nexon
-...Updating
-
 ### Application
 #### Virtual Friend
 Creating agents in various forms of friends who can play games with users like you. Those agents can understand the current situation in the game, chat, and play with you.
@@ -86,9 +80,3 @@ Retrieval-augmented generation (RAG) is a technique for enhancing the accuracy a
 In other words, it fills a gap in how LLMs work. Under the hood, LLMs are neural networks, typically measured by how many parameters they contain. An LLM’s parameters essentially represent the general patterns of how humans use words to form sentences.
 
 That deep understanding, sometimes called parameterized knowledge, makes LLMs useful in responding to general prompts at light speed. However, it does not serve users who want a deeper dive into a current or more specific topic.
-
-
-## NLP(Natural Language Processing)
-
-
-# AI Strategy
